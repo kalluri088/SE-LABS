@@ -18,6 +18,7 @@
 | [`Lab4_CICD/`](./Lab4_CICD/) | **CI/CD Pipeline Automation** | GitHub Actions, Pytest, GitHub Pages | Automated build, test, and deploy workflow ([`pipeline.yml`](./Lab4_CICD/.github/workflows/pipeline.yml), [`app.py`](./Lab4_CICD/app.py), [`CICD Demo.pdf`](./Lab4_CICD/CICD%20Demo.pdf)) |
 | [`Lab5/`](./Lab5/) | **Static Code Analysis** | Pylint, Bandit, Flake8 | Security, style, & bug triage on `school_transport.py` (Pylint 10/10, 0 High/Medium Bandit, [`Report PDF`](./Lab5/PES2UG24CS212_SE_Lab5_Report.pdf)) |
 | [`Lab6/`](./Lab6/) | **Code & Branch Coverage Analysis** | Pytest, Coverage.py | 100% statement & 100% branch coverage on `pizza_order.py`, test suites, genuine terminal screenshots, [`Report PDF`](./Lab6/PES2UG24CS212_SE_Lab6_Report.pdf) |
+| [`Lab7/`](./Lab7/) | **Fuzz Testing & Defensive Hardening** | Pytest, Hypothesis | Property-based fuzz testing, input validation hardening, genuine execution screenshots, [`Report PDF`](./Lab7/PES2UG24CS212_SE_Lab7_Report.pdf) |
 
 ---
 
@@ -58,17 +59,27 @@ SE-LABS/
 │       ├── pylint_report_original.txt
 │       ├── bandit_report_original.txt
 │       └── flake8_report_original.txt
-└── Lab6/
+├── Lab6/
+│   ├── README.md
+│   ├── .coveragerc
+│   ├── pizza_order.py
+│   ├── test_pizza_order.py
+│   ├── CodeCoverageTest_pizza_order.py
+│   ├── BranchCoverageTest_pizza_order.py
+│   ├── initial_coverage_screenshot.png
+│   ├── code_coverage_screenshot.png
+│   ├── branch_coverage_screenshot.png
+│   └── PES2UG24CS212_SE_Lab6_Report.pdf
+└── Lab7/
     ├── README.md
-    ├── .coveragerc
     ├── pizza_order.py
     ├── test_pizza_order.py
-    ├── CodeCoverageTest_pizza_order.py
-    ├── BranchCoverageTest_pizza_order.py
-    ├── initial_coverage_screenshot.png
-    ├── code_coverage_screenshot.png
-    ├── branch_coverage_screenshot.png
-    └── PES2UG24CS212_SE_Lab6_Report.pdf
+    ├── stage1_original_app.png
+    ├── stage2_failing_hypothesis.png
+    ├── stage3_fixed_app.png
+    ├── stage4_passing_hypothesis.png
+    ├── PES2UG24CS212_SE_Lab7_Report.pdf
+    └── Lab_7_FuzzTesting_Student_Handout.pdf
 ```
 
 ---
